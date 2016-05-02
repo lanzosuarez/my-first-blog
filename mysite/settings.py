@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '6%7r937*d+v-)sttzamrkc*p)qqs7!uvr7fn!==ulejvno=q_n'
+SECRET_KEY = 'h4pjat($8c16szwhkz7gq7qisr()ozbg7s4w-$w9dkpe2b8+22'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -55,6 +55,7 @@ ROOT_URLCONF = 'mysite.urls'
 
 TEMPLATES = [
     {
+        
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
         'APP_DIRS': True,
